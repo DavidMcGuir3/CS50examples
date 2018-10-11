@@ -5,9 +5,11 @@
 int main(void)
 {
     int num;
+
     do
     {
         num = get_int("Please enter a number: ");
     }
+
     while (num < 0);
 }
