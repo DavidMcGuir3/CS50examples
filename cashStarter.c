@@ -6,25 +6,22 @@ int main(void)
 {
     float dollars;
 
-    //keeping track of my coin count
+    //setup counter using coins
     int coins = 0;
 
-    //the change left over
+    //setup my change
     int cents;
 
     do
     {
-        dollars = get_float("what is your change: ");
+        dollars = get_float("What is your change? ");
     }
-    while(dollars < 0);
+    while (dollars < 0);
 
-    //conversion using rounding to avoid float point imperfection
+    //convert dollars to cents also round to avoid float point error precision
     cents = round(dollars * 100);
 
-    //quarters
     coins += cents / 25;
-
-    //figure out remaining change
     cents = cents % 25;
-    printf("Here is your coin count: %i and here is your change thus far: %i\n", coins, cents);
+    printf("Here is your coin count: %i, and your change is: $0.%i\n", coins, cents);
 }
