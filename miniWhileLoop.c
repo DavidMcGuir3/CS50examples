@@ -10,8 +10,9 @@ int main(void)
 
     printf("Alphabets from a - z are: \n");
 
-    /* ASCII value of a=[use ascii chart to find number] */
-    for(i=__; i<=__; i++)
+    __ = '__';
+
+    for(i='__'; i<='__'; i++)
     {
         /*
          * Integer i with %c will convert integer
