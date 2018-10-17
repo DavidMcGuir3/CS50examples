@@ -1,4 +1,4 @@
-//C program to display all alphabets from a-z using ASCII value
+//C program to display all alphabets from a-z using char values
 
 #include <stdio.h>
 #include <cs50.h>
