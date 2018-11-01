@@ -17,9 +17,9 @@ int main(void)
     {
         choice = false;
     }
-    
-    
-    
+
+
+
     if (choice == true)
     {
         printf("Get out and vote!\n");
