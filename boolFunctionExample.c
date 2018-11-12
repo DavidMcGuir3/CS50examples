@@ -20,7 +20,7 @@ int main(void)
     int x, y;
     x = get_int("Please enter your first number: ");
     y = get_int("\nPlease enter your second number: ");
-    
+
     if (myBoolFunction(x,y))
     {
         printf("A is Greater than B\n");
